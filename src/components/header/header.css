@@ -10,6 +10,10 @@ header nav {
     gap: 1rem;
     align-items: center;
     padding: 1rem;
+    @media (max-width: 600px) {
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 header nav a {
