@@ -1,6 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import App from "./components/App.jsx";
+import App from "./pages/App.jsx";
 import Apropos from "./components/apropos.jsx";
 import Header from "./components/header/header.jsx";
 import Footer from "./components/footer/footer.jsx";

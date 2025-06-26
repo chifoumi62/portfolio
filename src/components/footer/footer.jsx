@@ -5,11 +5,16 @@ function Footer() {
     <footer className="footer">
       <div className="container">
         <h2>contact</h2>
-        <p className="text-muted">mail:sebastien.denavaut@gmail.com</p>
+        <a href="mailto:sebastien.denavaut@gmail.com" className="text-muted">
+          mail:sebastien.denavaut@gmail.com
+        </a>
         <p className="text-muted">téléphone: 07 67 88 43 89</p>
-        <p className="text-muted">
+        <a
+          href="https://www.linkedin.com/in/denavaut-sebastien/"
+          className="text-muted"
+        >
           linkedin: https://www.linkedin.com/in/denavaut-sebastien/
-        </p>
+        </a>
       </div>
     </footer>
   );
