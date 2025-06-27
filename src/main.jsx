@@ -1,7 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import App from "./pages/App.jsx";
-import Apropos from "./components/apropos.jsx";
+import Apropos from "./pages/apropos.jsx";
 import Header from "./components/header/header.jsx";
 import Footer from "./components/footer/footer.jsx";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";

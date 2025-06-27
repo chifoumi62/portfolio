@@ -1,0 +1,22 @@
+.head-apropos__line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.head-apropos__image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.head-apropos__description {
+    border: 2px solid #ccc;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+    
+}

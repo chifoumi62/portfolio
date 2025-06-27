@@ -1,0 +1,59 @@
+.apropos__line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.apropos__button {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.apropos__button:hover {
+    color: palevioletred;
+    cursor: pointer;
+}
+
+.apropos__description {
+    display: block;
+}
+
+.animation_text1 {
+     padding-left: 20px;
+    opacity: 0;
+    animation: fadeIn 1.0s ease-out forwards;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+}
+
+.animation_text2 {
+     padding-left: 20px;
+    opacity: 0;
+    animation: fadeIn2 1.0s ease-out forwards;
+}
+@keyframes fadeIn2 {
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+}
