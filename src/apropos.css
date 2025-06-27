@@ -20,10 +20,6 @@
     cursor: pointer;
 }
 
-.apropos__description {
-    display: block;
-}
-
 .animation_text1 {
      padding-left: 20px;
     opacity: 0;
