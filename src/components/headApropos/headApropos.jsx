@@ -11,14 +11,14 @@ function HeadApropos() {
           alt="Image de sebastien"
         />
         <p className="head-apropos__description">
-          Je m'appelle Sébastien, j'ai 50 ans et je me suis passionné assez
+          Je m'appelle Sébastien; J'ai 50 ans et je me suis passionné assez
           récemment pour le développement web. Après une carrière dans le
           secteur médical, j'ai décidé de me reconvertir dans ce domaine en
           2025. J'ai suivi une formation intensive qui m'a permis d'acquérir des
           compétences solides en HTML, CSS, JavaScript, React et Node.js. Je
           suis enthousiaste à l'idée de créer des applications web dynamiques et
-          réactives, ainsi que de continué à me former sur d'autres technologie
-          du web et conforté mes connaissances actuelles. vous voulez en savoir
+          réactives, ainsi que de continer à me former sur d'autres technologies
+          du web et conforter mes connaissances actuelles. Vous voulez en savoir
           plus sur moi, alors cliquez sur le bouton ci-dessous.
         </p>
       </div>

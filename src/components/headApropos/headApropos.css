@@ -1,9 +1,13 @@
+
+
 .head-apropos__line {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 50px;
     padding: 20px;
+    background-image: url("public/assets/fond_sous_marin.jpg");
+    border-radius: 20px;
     @media (max-width: 768px) {
         flex-direction: column;
         align-items: center;

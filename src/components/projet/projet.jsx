@@ -3,9 +3,9 @@ import "./projet.css";
 const projet = [
   {
     id: 1,
-    title: "Projet booki",
+    title: "Projet Booki",
     description:
-      "developpement de la page d'accueil d'une application de location de logements",
+      "Developpement de la page d'accueil d'une application de location de logements",
     image: "/assets/booki.jpg",
     link: "https://github.com/chifoumi62/projet_booki/tree/main",
   },
@@ -19,7 +19,7 @@ const projet = [
   {
     id: 3,
     title: "Projet nina carducci",
-    description: "optimisation SEO d'un site de photographie",
+    description: "Optimisation SEO d'un site de photographie",
     image: "/assets/nina.png",
     link: "https://github.com/chifoumi62/Nina-Carducci-Dev",
   },
