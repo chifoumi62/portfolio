@@ -1,4 +1,5 @@
 import "./projet.css";
+import { Link } from "react-router-dom";
 
 const projet = [
   {
@@ -36,25 +37,37 @@ const projet = [
     title: "Projet mon vieux grimoire",
     description: "Création du back-end d'une application de gestion de livres",
     image: "/assets/book_add.jpg",
-    link: "https://github.com/chifoumi62/backend",
+    link: "",
   },
 ];
-
+/*const projet = [];
+fetch("data/projet.json")
+  .then((Response) => Response.json())
+  .then((data) => {
+    projet.push(...data);
+  })
+  .catch((error) => {
+    console.error("error fetching data:", error);
+  });
+*/
 function Projet() {
   return (
     <div className="projets-container">
       <h1>Mes projets</h1>
-      <div className="projet-grid">
+      <div className="projets-card-container">
         {projet.map((item) => (
-          <div key={item.id} className="projet-card">
-            <img src={item.image} alt={item.title} />
-            <div className="projet-card-content">
-              <h2>{item.title}</h2>
-              <p>{item.description}</p>
-              <a href={item.link} target="_blank" rel="noopener noreferrer">
-                Voir le projet
-              </a>
-            </div>
+          <div className="projets-card" key={item.id}>
+            <Link
+              to={`/projet/${item.id}`}
+              className="projets-card-link"
+              key={item.id}
+            >
+              <img src={item.image} alt={item.title} />
+              <div className="projets-card-content">
+                <h2>{item.title}</h2>
+                <p>{item.description}</p>
+              </div>
+            </Link>
           </div>
         ))}
       </div>
