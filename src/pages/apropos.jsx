@@ -45,6 +45,12 @@ function Apropos() {
     setIsOpen(!isOpen);
   };
 
+  const [isOpen2, setIsOpen2] = useState(false);
+
+  const toggleDescription2 = () => {
+    setIsOpen2(!isOpen2);
+  };
+
   return (
     <div className="apropos">
       <HeadApropos />
@@ -68,6 +74,28 @@ function Apropos() {
             </div>
             <div className="animation_text1">
               <BodyApropos item={items5} />
+            </div>
+          </div>
+        )}
+        <button onClick={toggleDescription2} className="apropos__button">
+          Toujours plus ...
+        </button>
+        {isOpen2 && (
+          <div classname="apropos__line2">
+            <div className="lien">
+              <a href="/mon-cv.pdf" target="_blank" rel="noopener noreferrer">
+                Voir mon CV
+              </a>
+            </div>
+            <div className="lien">
+              <a href="/mon-cv.pdf" download>
+                Télécharger mon CV
+              </a>
+            </div>
+            <div className="lien">
+              <a href="https://miro.com/app/board/uXjVIlYrh4k=/">
+                voir mon tableau de compétences
+              </a>
             </div>
           </div>
         )}

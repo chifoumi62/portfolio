@@ -6,7 +6,7 @@ function Header() {
     <header>
       <h1>Portfolio Denavaut Sebastien</h1>
       <nav>
-        <Link to="/">Accueil</Link>
+        <Link to="/">Projets</Link>
         <Link to="/apropos">À propo</Link>
       </nav>
     </header>
