@@ -93,7 +93,7 @@ function Apropos() {
               </a>
             </div>
             <div className="lien">
-              <a href="https://miro.com/app/board/uXjVIlYrh4k=/">
+              <a href="https://miro.com/app/board/uXjVIlYrh4k=/" target="blank">
                 voir mon tableau de compétences
               </a>
             </div>

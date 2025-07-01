@@ -6,7 +6,7 @@
     justify-content: space-between;
     gap: 50px;
     padding: 20px;
-    background-image: url(assets/fond_sous_marin.jpg);
+    background-color: rgba(0, 195, 255, 0.767);
     border-radius: 20px;
     @media (max-width: 768px) {
         flex-direction: column;
@@ -34,8 +34,7 @@
 }
 
 .head-apropos__description {
-    border: 2px solid #ccc;
-    background-color: aqua;
+    border: 2px none #ccc;
     padding: 10px;
     border-radius: 10px;
     font-size: 20px;

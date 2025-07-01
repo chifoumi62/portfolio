@@ -41,15 +41,15 @@ const projet = [
   },
 ];
 /*const projet = [];
-fetch("data/projet.json")
+fetch("/data/projet.json")
   .then((Response) => Response.json())
   .then((data) => {
     projet.push(...data);
   })
   .catch((error) => {
     console.error("error fetching data:", error);
-  });
-*/
+  });*/
+
 function Projet() {
   return (
     <div className="projets-container">
