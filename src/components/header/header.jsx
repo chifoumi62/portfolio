@@ -7,7 +7,7 @@ function Header() {
       <h1>Portfolio Denavaut Sebastien</h1>
       <nav>
         <Link to="/">Projets</Link>
-        <Link to="/apropos">À propo</Link>
+        <Link to="/apropos">A propos</Link>
       </nav>
     </header>
   );
