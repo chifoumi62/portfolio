@@ -27,7 +27,7 @@ function Apropos() {
 
   const items4 = {
     id: 4,
-    titre: "Compétences en informatique",
+    titre: "Compétences",
     description:
       "La formation que j'ai suivie m'a permis d'acquérir des compétences en HTML, CSS, JavaScript, React, Node.js et Express. J'ai également appris à utiliser des outils de gestion de version comme Git et GitHub, ainsi que des bases de données comme MongoDB. Je suis capable de créer des applications web dynamiques et réactives.",
   };
@@ -81,7 +81,7 @@ function Apropos() {
           Toujours plus ...
         </button>
         {isOpen2 && (
-          <div classname="apropos__line2">
+          <div className="apropos__line2">
             <div className="lien">
               <a href="/mon-cv.pdf" target="_blank" rel="noopener noreferrer">
                 Voir mon CV

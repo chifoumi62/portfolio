@@ -10,7 +10,8 @@ function Footer() {
         </a>
         <p className="text-muted">téléphone: 07 67 88 43 89</p>
         <a
-          href="https://www.linkedin.com/in/denavaut-sebastien/"
+          href="https://www.linkedin.com/in/sebastien-denavaut"
+          target="blank"
           className="text-muted"
         >
           linkedin: https://www.linkedin.com/in/denavaut-sebastien/
