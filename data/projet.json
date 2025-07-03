@@ -18,7 +18,7 @@
         "Apprentissage du javascript pour la création de pages web dynamiques",
       "problème":
         "L'utilisation de la fonction fetch notamment le charge utile qui n'est pas toujours au format json",
-      "image": "/assets/abajour-tahina.png",
+      "image": "https://chifoumi62.github.io/portfolio/assets/abajour-tahina.png",
       "link": "https://github.com/chifoumi62/Portfolio-architecte-sophie-bluel"
     },
     {
@@ -28,7 +28,7 @@
       "compétences":
         "Obtenir un rapport lighthousse et wave correct, débugger un site web ainsi que l'implentation de metadonnées ",
       "problème": "Le traitement des photos et les metadonnées",
-      "image": "/assets/nina.png",
+      "image": "https://chifoumi62.github.io/portfolio/assets/nina.png",
       "link": "https://github.com/chifoumi62/Nina-Carducci-Dev"
     },
     {
@@ -39,7 +39,7 @@
       "compétences": "Commencer à appréhender React et son concept",
       "problème":
         "Apprendre à coder autrement avec le meme langage deja utilisé (javascript) et appréhender le concept de composant réutilisables avec les props",
-      "image": "/assets/LOGO (1).png",
+      "image": "https://chifoumi62.github.io/portfolio/assets/LOGO (1).png",
       "link": "https://github.com/chifoumi62/react-kasa"
     },
     {
@@ -51,7 +51,7 @@
         "Construire une API avec node.js et express avec une relation avec mongoDB",
       "problème":
         "L'architecture et le code de la logique métier ainsi que l'implémentation du middelware pour optimisation des photos avec sharp", 
-      "image": "/assets/book_add.jpg",
+      "image": "https://chifoumi62.github.io/portfolio/assets/book_add.jpg",
       "link": "https://github.com/chifoumi62/backend"
     }
   ]
